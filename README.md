@@ -7,7 +7,7 @@ Toda posición, rotación, escalado, jerarquía de objetos y sistema de colisió
 
 ---
 
-## 🧠 Filosofía y Decisiones de Diseño Arquitectónico
+## Filosofía y Decisiones de Diseño Arquitectónico
 
 El principio fundamental del proyecto es: **"La matemática es la fuente de la verdad"**. 
 Para lograr esto, el sistema se desacopló en 5 capas, garantizando que la lógica algebraica nunca se mezcle con las librerías de dibujo.
@@ -37,7 +37,7 @@ Para demostrar la solidez del motor, se desarrolló un panel lateral interactivo
 
 ---
 
-## 📂 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```text
 /simulador_garra
@@ -53,7 +53,7 @@ Para demostrar la solidez del motor, se desarrolló un panel lateral interactivo
 
 ```
 
-## 🚀 Instalación y Ejecución
+## Instalación y Ejecución
 
 ### Prerrequisitos
 
@@ -81,7 +81,7 @@ python main.py
 
 ```
 
-## 🎮 Controles y Funcionalidades
+## Controles y Funcionalidades
 
 El simulador implementa una máquina de estados finitos que bloquea o habilita acciones dependiendo de la situación matemática actual (Ej. No puedes abrir las pinzas mientras retornas al origen).
 
